@@ -1,0 +1,7 @@
+kind: Subscription
+eventType: Microsoft.Storage.BlobCreated
+function: label
+name: blob-to-label
+tags:
+  - key: role
+    value : vmworld

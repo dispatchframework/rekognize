@@ -1,0 +1,13 @@
+kind: Function
+name: label
+sourcePath: 'label.py'
+image: python3-azure-aws
+schema: {}
+secrets:
+  - azure-storage
+  - slack
+services:
+  - rekognition-01
+tags:
+  - key: role
+    value: vmworld

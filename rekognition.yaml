@@ -1,0 +1,7 @@
+kind: ServiceInstance
+name: rekognition
+serviceclass: dh-rekognition
+serviceplan: default
+tags:
+  - key: role
+    value : vmworld

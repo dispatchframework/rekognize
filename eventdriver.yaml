@@ -1,0 +1,19 @@
+kind: DriverType
+name: eventgrid
+image: dispatchframework/events-eventgrid:0.0.2
+expose: true
+tags:
+  - key: role
+    value : vmworld
+---
+kind: Driver
+name: eventgrid
+type: eventgrid
+config:
+  - key: account
+    value: dispatchblob
+  - key: container
+    value: dispatchcontainer
+tags:
+  - key: role
+    value : vmworld
